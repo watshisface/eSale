@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		552D1EF91B298724002790A1 /* restAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552D1EF81B298724002790A1 /* restAPIManager.swift */; };
+		552D1EFB1B29876F002790A1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552D1EFA1B29876F002790A1 /* SwiftyJSON.swift */; };
 		554D8D0E1B14C1F600C85F85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554D8D0D1B14C1F600C85F85 /* AppDelegate.swift */; };
-		554D8D111B14C1F600C85F85 /* esale2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 554D8D0F1B14C1F600C85F85 /* esale2.xcdatamodeld */; };
+		554D8D111B14C1F600C85F85 /* eSale.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 554D8D0F1B14C1F600C85F85 /* eSale.xcdatamodeld */; };
 		554D8D131B14C1F600C85F85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554D8D121B14C1F600C85F85 /* ViewController.swift */; };
 		554D8D161B14C1F600C85F85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554D8D141B14C1F600C85F85 /* Main.storyboard */; };
 		554D8D181B14C1F600C85F85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 554D8D171B14C1F600C85F85 /* Images.xcassets */; };
 		554D8D1B1B14C1F600C85F85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 554D8D191B14C1F600C85F85 /* LaunchScreen.xib */; };
 		554D8D271B14C1F700C85F85 /* esale2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554D8D261B14C1F700C85F85 /* esale2Tests.swift */; };
+		5553FD801B15D35B00DC513F /* ReportRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5553FD7F1B15D35B00DC513F /* ReportRecord.swift */; };
+		557838A41B25834200A7F86F /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557838A31B25834200A7F86F /* Device.swift */; };
+		55B7CD611B15E14A00A8DF7D /* insertReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B7CD601B15E14A00A8DF7D /* insertReport.swift */; };
+		55CFFF6F1B15A64E0004BD9C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFFF6B1B15A64E0004BD9C /* Login.swift */; };
+		55CFFF701B15A64E0004BD9C /* ReportsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFFF6C1B15A64E0004BD9C /* ReportsController.swift */; };
+		55CFFF711B15A64E0004BD9C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFFF6D1B15A64E0004BD9C /* FirstViewController.swift */; };
+		55CFFF721B15A64E0004BD9C /* reportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CFFF6E1B15A64E0004BD9C /* reportCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +36,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		554D8D081B14C1F600C85F85 /* esale2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esale2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		552D1EF81B298724002790A1 /* restAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = restAPIManager.swift; sourceTree = "<group>"; };
+		552D1EFA1B29876F002790A1 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		554D8D081B14C1F600C85F85 /* eSale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eSale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		554D8D0C1B14C1F600C85F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		554D8D0D1B14C1F600C85F85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		554D8D101B14C1F600C85F85 /* esale2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = esale2.xcdatamodel; sourceTree = "<group>"; };
+		554D8D101B14C1F600C85F85 /* eSale.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eSale.xcdatamodel; sourceTree = "<group>"; };
 		554D8D121B14C1F600C85F85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		554D8D151B14C1F600C85F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		554D8D171B14C1F600C85F85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		554D8D1A1B14C1F600C85F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		554D8D201B14C1F600C85F85 /* esale2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = esale2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		554D8D201B14C1F600C85F85 /* eSaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eSaleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		554D8D251B14C1F600C85F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		554D8D261B14C1F700C85F85 /* esale2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esale2Tests.swift; sourceTree = "<group>"; };
+		5553FD7F1B15D35B00DC513F /* ReportRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportRecord.swift; sourceTree = "<group>"; };
+		557838A31B25834200A7F86F /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		55B7CD601B15E14A00A8DF7D /* insertReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = insertReport.swift; sourceTree = "<group>"; };
+		55CFFF6B1B15A64E0004BD9C /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		55CFFF6C1B15A64E0004BD9C /* ReportsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportsController.swift; sourceTree = "<group>"; };
+		55CFFF6D1B15A64E0004BD9C /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		55CFFF6E1B15A64E0004BD9C /* reportCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = reportCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +79,7 @@
 		554D8CFF1B14C1F600C85F85 = {
 			isa = PBXGroup;
 			children = (
-				554D8D0A1B14C1F600C85F85 /* esale2 */,
+				554D8D0A1B14C1F600C85F85 /* eSale */,
 				554D8D231B14C1F600C85F85 /* esale2Tests */,
 				554D8D091B14C1F600C85F85 /* Products */,
 			);
@@ -70,23 +88,33 @@
 		554D8D091B14C1F600C85F85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				554D8D081B14C1F600C85F85 /* esale2.app */,
-				554D8D201B14C1F600C85F85 /* esale2Tests.xctest */,
+				554D8D081B14C1F600C85F85 /* eSale.app */,
+				554D8D201B14C1F600C85F85 /* eSaleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		554D8D0A1B14C1F600C85F85 /* esale2 */ = {
+		554D8D0A1B14C1F600C85F85 /* eSale */ = {
 			isa = PBXGroup;
 			children = (
+				552D1EFA1B29876F002790A1 /* SwiftyJSON.swift */,
+				55CFFF6B1B15A64E0004BD9C /* Login.swift */,
+				55CFFF6C1B15A64E0004BD9C /* ReportsController.swift */,
+				55CFFF6D1B15A64E0004BD9C /* FirstViewController.swift */,
+				55CFFF6E1B15A64E0004BD9C /* reportCell.swift */,
 				554D8D0D1B14C1F600C85F85 /* AppDelegate.swift */,
 				554D8D121B14C1F600C85F85 /* ViewController.swift */,
 				554D8D141B14C1F600C85F85 /* Main.storyboard */,
 				554D8D171B14C1F600C85F85 /* Images.xcassets */,
 				554D8D191B14C1F600C85F85 /* LaunchScreen.xib */,
-				554D8D0F1B14C1F600C85F85 /* esale2.xcdatamodeld */,
+				554D8D0F1B14C1F600C85F85 /* eSale.xcdatamodeld */,
 				554D8D0B1B14C1F600C85F85 /* Supporting Files */,
+				5553FD7F1B15D35B00DC513F /* ReportRecord.swift */,
+				55B7CD601B15E14A00A8DF7D /* insertReport.swift */,
+				557838A31B25834200A7F86F /* Device.swift */,
+				552D1EF81B298724002790A1 /* restAPIManager.swift */,
 			);
+			name = eSale;
 			path = esale2;
 			sourceTree = "<group>";
 		};
@@ -118,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		554D8D071B14C1F600C85F85 /* esale2 */ = {
+		554D8D071B14C1F600C85F85 /* eSale */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 554D8D2A1B14C1F700C85F85 /* Build configuration list for PBXNativeTarget "esale2" */;
+			buildConfigurationList = 554D8D2A1B14C1F700C85F85 /* Build configuration list for PBXNativeTarget "eSale" */;
 			buildPhases = (
 				554D8D041B14C1F600C85F85 /* Sources */,
 				554D8D051B14C1F600C85F85 /* Frameworks */,
@@ -130,14 +158,14 @@
 			);
 			dependencies = (
 			);
-			name = esale2;
+			name = eSale;
 			productName = esale2;
-			productReference = 554D8D081B14C1F600C85F85 /* esale2.app */;
+			productReference = 554D8D081B14C1F600C85F85 /* eSale.app */;
 			productType = "com.apple.product-type.application";
 		};
-		554D8D1F1B14C1F600C85F85 /* esale2Tests */ = {
+		554D8D1F1B14C1F600C85F85 /* eSaleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 554D8D2D1B14C1F700C85F85 /* Build configuration list for PBXNativeTarget "esale2Tests" */;
+			buildConfigurationList = 554D8D2D1B14C1F700C85F85 /* Build configuration list for PBXNativeTarget "eSaleTests" */;
 			buildPhases = (
 				554D8D1C1B14C1F600C85F85 /* Sources */,
 				554D8D1D1B14C1F600C85F85 /* Frameworks */,
@@ -148,9 +176,9 @@
 			dependencies = (
 				554D8D221B14C1F600C85F85 /* PBXTargetDependency */,
 			);
-			name = esale2Tests;
+			name = eSaleTests;
 			productName = esale2Tests;
-			productReference = 554D8D201B14C1F600C85F85 /* esale2Tests.xctest */;
+			productReference = 554D8D201B14C1F600C85F85 /* eSaleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -164,6 +192,7 @@
 				TargetAttributes = {
 					554D8D071B14C1F600C85F85 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = D4QFQ3A4AD;
 					};
 					554D8D1F1B14C1F600C85F85 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -171,7 +200,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 554D8D031B14C1F600C85F85 /* Build configuration list for PBXProject "esale2" */;
+			buildConfigurationList = 554D8D031B14C1F600C85F85 /* Build configuration list for PBXProject "eSale" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -184,8 +213,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				554D8D071B14C1F600C85F85 /* esale2 */,
-				554D8D1F1B14C1F600C85F85 /* esale2Tests */,
+				554D8D071B14C1F600C85F85 /* eSale */,
+				554D8D1F1B14C1F600C85F85 /* eSaleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -215,9 +244,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5553FD801B15D35B00DC513F /* ReportRecord.swift in Sources */,
+				55CFFF711B15A64E0004BD9C /* FirstViewController.swift in Sources */,
+				55CFFF6F1B15A64E0004BD9C /* Login.swift in Sources */,
+				552D1EFB1B29876F002790A1 /* SwiftyJSON.swift in Sources */,
+				55B7CD611B15E14A00A8DF7D /* insertReport.swift in Sources */,
 				554D8D131B14C1F600C85F85 /* ViewController.swift in Sources */,
 				554D8D0E1B14C1F600C85F85 /* AppDelegate.swift in Sources */,
-				554D8D111B14C1F600C85F85 /* esale2.xcdatamodeld in Sources */,
+				55CFFF721B15A64E0004BD9C /* reportCell.swift in Sources */,
+				552D1EF91B298724002790A1 /* restAPIManager.swift in Sources */,
+				55CFFF701B15A64E0004BD9C /* ReportsController.swift in Sources */,
+				554D8D111B14C1F600C85F85 /* eSale.xcdatamodeld in Sources */,
+				557838A41B25834200A7F86F /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +272,7 @@
 /* Begin PBXTargetDependency section */
 		554D8D221B14C1F600C85F85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 554D8D071B14C1F600C85F85 /* esale2 */;
+			target = 554D8D071B14C1F600C85F85 /* eSale */;
 			targetProxy = 554D8D211B14C1F600C85F85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -342,9 +380,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = esale2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = eSale;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -352,9 +393,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = esale2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = eSale;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -372,7 +416,7 @@
 				);
 				INFOPLIST_FILE = esale2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = eSaleTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/esale2.app/esale2";
 			};
 			name = Debug;
@@ -387,7 +431,7 @@
 				);
 				INFOPLIST_FILE = esale2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = eSaleTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/esale2.app/esale2";
 			};
 			name = Release;
@@ -395,7 +439,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		554D8D031B14C1F600C85F85 /* Build configuration list for PBXProject "esale2" */ = {
+		554D8D031B14C1F600C85F85 /* Build configuration list for PBXProject "eSale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				554D8D281B14C1F700C85F85 /* Debug */,
@@ -404,32 +448,34 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		554D8D2A1B14C1F700C85F85 /* Build configuration list for PBXNativeTarget "esale2" */ = {
+		554D8D2A1B14C1F700C85F85 /* Build configuration list for PBXNativeTarget "eSale" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				554D8D2B1B14C1F700C85F85 /* Debug */,
 				554D8D2C1B14C1F700C85F85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		554D8D2D1B14C1F700C85F85 /* Build configuration list for PBXNativeTarget "esale2Tests" */ = {
+		554D8D2D1B14C1F700C85F85 /* Build configuration list for PBXNativeTarget "eSaleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				554D8D2E1B14C1F700C85F85 /* Debug */,
 				554D8D2F1B14C1F700C85F85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		554D8D0F1B14C1F600C85F85 /* esale2.xcdatamodeld */ = {
+		554D8D0F1B14C1F600C85F85 /* eSale.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				554D8D101B14C1F600C85F85 /* esale2.xcdatamodel */,
+				554D8D101B14C1F600C85F85 /* eSale.xcdatamodel */,
 			);
-			currentVersion = 554D8D101B14C1F600C85F85 /* esale2.xcdatamodel */;
-			path = esale2.xcdatamodeld;
+			currentVersion = 554D8D101B14C1F600C85F85 /* eSale.xcdatamodel */;
+			path = eSale.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
