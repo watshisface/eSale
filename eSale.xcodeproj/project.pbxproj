@@ -188,11 +188,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "Marvin Manzi";
+				ORGANIZATIONNAME = "Pivot Access";
 				TargetAttributes = {
 					554D8D071B14C1F600C85F85 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = D4QFQ3A4AD;
+						DevelopmentTeam = 76QMQ9A5BY;
 					};
 					554D8D1F1B14C1F600C85F85 = {
 						CreatedOnToolsVersion = 6.1.1;
