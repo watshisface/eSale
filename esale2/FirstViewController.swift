@@ -86,7 +86,7 @@ class FirstViewController: UIViewController {
            
             var myAlertView = UIAlertView()
             if let textFields = alertController.textFields{
-            let theTextFields = textFields as [UITextField]
+            let theTextFields = textFields as! [UITextField]
                 
             //get customer ref and amount from alert
             self.receiver = theTextFields[0].text
@@ -175,10 +175,10 @@ class FirstViewController: UIViewController {
                         self.customer = customer
                     }
 
-                    var appDel = (UIApplication.sharedApplication().delegate as AppDelegate)
+                    var appDel = (UIApplication.sharedApplication().delegate as! AppDelegate)
                     var context : NSManagedObjectContext = appDel.managedObjectContext!
                     
-                    var newReport = NSEntityDescription.insertNewObjectForEntityForName("Reports", inManagedObjectContext: context) as NSManagedObject
+                    var newReport = NSEntityDescription.insertNewObjectForEntityForName("Reports", inManagedObjectContext: context) as! NSManagedObject
                     newReport.setValue(self.receiver, forKey: "receiver")
                     newReport.setValue(self.amount, forKey: "amount")
                     newReport.setValue(self.DateInFormat, forKey: "time")
@@ -263,7 +263,7 @@ class FirstViewController: UIViewController {
         if NSJSONSerialization.isValidJSONObject(value) {
             if let data = NSJSONSerialization.dataWithJSONObject(value, options: options, error: nil) {
                 if let string = NSString(data: data, encoding: NSUTF8StringEncoding) {
-                    return string
+                    return string as String
                 }
             }
         }

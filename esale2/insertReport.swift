@@ -27,10 +27,10 @@ class insertReport: UIViewController {
     
     @IBAction func buy(sender: AnyObject) {
         
-        var appDel = (UIApplication.sharedApplication().delegate as AppDelegate)
+        var appDel = (UIApplication.sharedApplication().delegate as! AppDelegate)
         var context : NSManagedObjectContext = appDel.managedObjectContext!
         
-        var newUser = NSEntityDescription.insertNewObjectForEntityForName("Reports", inManagedObjectContext: context) as NSManagedObject
+        var newUser = NSEntityDescription.insertNewObjectForEntityForName("Reports", inManagedObjectContext: context) as! NSManagedObject
         newUser.setValue(number.text, forKey: "receiver")
         newUser.setValue(amount.text, forKey: "amount")
         newUser.setValue("Mtn", forKey: "icon")

@@ -35,7 +35,7 @@ class ReportsViewController: UIViewController, UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as reportCell
+        var cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! reportCell
 
 
         let user = result[indexPath.row]
@@ -56,7 +56,7 @@ class ReportsViewController: UIViewController, UITableViewDataSource {
     
     func dataOfJson(url: String) -> NSArray {
         var data = NSData(contentsOfURL: NSURL(string: url)!)
-        return (NSJSONSerialization.JSONObjectWithData(data!, options: nil, error: nil) as NSArray)
+        return (NSJSONSerialization.JSONObjectWithData(data!, options: nil, error: nil) as! NSArray)
     }
     
     var refreshControl:UIRefreshControl!
@@ -104,7 +104,7 @@ class ReportsViewController: UIViewController, UITableViewDataSource {
     }
     
     func fetch()->[ReportRecord]{
-        var appDel = (UIApplication.sharedApplication().delegate as AppDelegate)
+        var appDel = (UIApplication.sharedApplication().delegate as! AppDelegate)
         var context : NSManagedObjectContext = appDel.managedObjectContext!
         var request = NSFetchRequest(entityName: "Reports")
         request.returnsObjectsAsFaults = false
